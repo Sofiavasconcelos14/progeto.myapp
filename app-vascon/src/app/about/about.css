@@ -1,0 +1,16 @@
+.container{
+    background-color: rgb(255, 210, 154);
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pai{
+    background-color: rgb(201, 186, 169);
+    width: 700px;
+    height: 800px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
