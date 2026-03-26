@@ -1,16 +1,51 @@
 .container{
     background-color: rgb(255, 210, 154);
     width: 100%;
-    height: 1000px;
+    height: 2000px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .pai{
     background-color: rgb(201, 186, 169);
-    width: 700px;
-    height: 800px;
+    width: 15
+    00px;
+    height: 1500px;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.fi{
+    background-color: rgb(70, 107, 107);
+    width: 700px;
+    height: 900px;
+}
+.fia{
+    background-color: rgb(71, 122, 122);
+    width: 1000px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    
+}
+
+img{
+
+    width: 700px;
+    height: 900px;
+}
+
+.form{
+width: 500px;
+height:500px ;
+background-color: #c49252;
+}
+.form1{
+width:500px;
+height:500px;
+background-color:#a58357;
+;
 }
