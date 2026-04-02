@@ -1,15 +1,26 @@
 .container{
     background-color: rgb(255, 210, 154);
     width: 100%;
-    height: 2000px;
+    height: 3000px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 100px;
+}
+.bv{
+    height: 200px;
+    width: 1500px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xxx-large ;
 }
 .pai{
     background-color: rgb(201, 186, 169);
-    width: 15
-    00px;
+    width: 1500px;
     height: 1500px;
     border-radius: 20px;
     justify-content: center;
@@ -24,11 +35,13 @@
     height: 900px;
 }
 .fia{
-    background-color: rgb(71, 122, 122);
-    width: 1000px;
+    background-color: rgb(201, 186, 169);
+    width: 1200px;
     height: 500px;
     margin: 10px;
     display: flex;
+    gap: 199px;
+    
     
 }
 
@@ -42,10 +55,20 @@ img{
 width: 500px;
 height:500px ;
 background-color: #c49252;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: justify;
+border-radius: 50px;
 }
 .form1{
 width:500px;
 height:500px;
 background-color:#a58357;
-;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: justif;
+border-radius: 50px;
+padding-left: 15px;
 }
