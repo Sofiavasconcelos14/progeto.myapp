@@ -1,13 +1,49 @@
 .container{
-    width: 100%;
-    height: 3000px;
-    background-color: antiquewhite;
+    width: 100vh !important;
+    height: 2000px;
+    background: linear-gradient(to bottom, rgb(144, 198, 243), rgb(229, 140, 247));
     display: flex;
     align-items: center;
     justify-content: center;
+    min-width: 100%;
 }
-.con1{
-    width: 1900px;
-    height: 1900px;
-    background-color: rgb(236, 181, 113);
+.cont1{
+    width: 1000px;
+    height: 1500px;
+    background: linear-gradient(to bottom, rgb(0, 46, 83), rgb(241, 189, 252));
+    
+}
+.cont2{
+    width: 1000px;
+    height: 250px;
+    background: linear-gradient(to bottom, rgb(0, 103, 187), rgb(241, 189, 252));
+}
+.cont3{
+    width: 1000px;
+    height: 50px;
+    background: linear-gradient(to bottom, rgb(23, 86, 138), rgb(241, 189, 252));
+}   
+
+.cont4{
+    width: 1000px;
+    height: 550px;
+    background: linear-gradient(to bottom, rgb(0, 46, 83), rgb(241, 189, 252));
+}
+img{
+    width: 100PX;
+    height: 500PX;
+}
+.cont5{
+    width: 1000px;
+    height: 600px;
+    background: linear-gradient(to bottom, rgb(23, 86, 138), rgb(241, 189, 252));
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 300PX;
+    height: 500PX;
+    
 }
