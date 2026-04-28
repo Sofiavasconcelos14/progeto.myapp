@@ -1,27 +1,26 @@
 .container{
-    background-color: rgb(255, 210, 154);
-    width:  100;
-    height: 3000px;
+    height: 100vh;
+    width: 4000px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 100px;
+    justify-content: center;
+    flex-direction: column;
+
 }
 .bv{
     height: 200px;
-    width: 1500px;
+    width: 2000px;
     background-color: aliceblue;
     border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: xxx-large ;
+    font-size:xx-small;
 }
 .pai{
     background-color: rgb(201, 186, 169);
-    width: 1500px;
-    height: 1500px;
+    width: 2000px;
+    height: 2300px;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
@@ -40,7 +39,7 @@
     height: 500px;
     margin: 10px;
     display: flex;
-    gap: 199px;
+    gap: 20px;
     
     
 }
@@ -52,18 +51,19 @@ img{
 }
 
 .form{
-width: 500px;
-height:500px ;
+width: 1000px;
+height:800px ;
 background-color: #c49252;
 display: flex;
 align-items: center;
 justify-content: center;
 text-align: justify;
 border-radius: 50px;
+
 }
 .form1{
-width:500px;
-height:500px;
+width: 1000px;
+height:800px;
 background-color:#a58357;
 display: flex;
 align-items: center;

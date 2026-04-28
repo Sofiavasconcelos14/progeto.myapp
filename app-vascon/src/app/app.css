@@ -9,3 +9,21 @@
     background: rgb(143, 112, 112);
     width: 100%;
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: rgb(255, 255, 255);
+    padding: 50px;
+    height: 50px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
