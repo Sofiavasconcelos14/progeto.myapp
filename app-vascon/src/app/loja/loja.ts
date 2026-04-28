@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 
 export interface Produto {
   id: number;
@@ -111,4 +111,15 @@ export class Loja {
       estoque: 17,
     },
   ];
+
+
+
+carrinho = signal<{ produto: Produto; quantidade: number }[]>([]);
+
+
+adicionarcarrinho(prod: Produto){
+  console.log('adicionado ao carrinho...\n'+ prod.estoque);
+  if(prod.estoque <= 0)
+    return;
+  }
 }

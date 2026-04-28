@@ -1,14 +1,23 @@
 <div class="prod-container">
   @for (produto of produtos; track produto.id) {
     <div class="card" style="width: 18rem">
-      <img src="{{ produto.imgs[0] }}" class="card-img" alt="..." />
+      <img src = {{ produto.imgs[0] }} class="card-img" alt="..." />
       <div class="card-body">
         <h5 class="card-title">{{ produto.nome }}</h5>
         <p class="card-text">{{ produto.descricao }}</p>
         <p class="card-text-xl">R$ {{ produto.preco }}</p>
-
-        <a href="#" class="btn btn-primary">Adicionar</a>
+        <button (click)="adicionarcarrinho()" class="btn btn-primary">Adicionar</button>
+      
       </div>
+      
+
+      
+        <button 
+          (click)="adicionarcarrinho(produto)"
+        > 
+          Adicionar
+        </button>
     </div>
-  }
+    
+  
 </div>
