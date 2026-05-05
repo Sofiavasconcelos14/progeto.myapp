@@ -3,12 +3,10 @@
     margin: 0 !important;
     padding: 0 !important;
     box-sizing: border-box !important;
+
+
 }
 
-.container{
-    background: rgb(143, 112, 112);
-    width: 100%;
-}
 
 nav {
     display: flex;

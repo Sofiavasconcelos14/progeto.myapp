@@ -1,0 +1,37 @@
+.container {
+  width: 100% !important;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  align-items: center;
+  padding: 20px;
+}
+.afi1 {
+  width: 1800px;
+  height: 100vh;
+  background-color: antiquewhite;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+    justify-content: space-around;
+}
+.afi2{
+  width: 1000px;
+  height: 500px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+}
+.afi3{
+  width: 500px;
+  height: 600px;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+}
