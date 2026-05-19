@@ -3,8 +3,6 @@
     margin: 0 !important;
     padding: 0 !important;
     box-sizing: border-box !important;
-
-
 }
 
 
@@ -13,15 +11,31 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background: rgb(255, 255, 255);
-    padding: 50px;
-    height: 50px;
+    background: linear-gradient( rgb(144, 198, 243), rgb(229, 140, 247));
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
     
 }
 
 nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size: 1.2rem;
+    font-size: 2.0rem;
     font-weight: bold;
+    
+}
+button {
+    background: linear-gradient(to bottom, rgb(144, 198, 243), rgb(229, 140, 247));
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    height: 70px;
+    width: 180px;
+    display: flex;  
+    align-items: center;
+   
 }

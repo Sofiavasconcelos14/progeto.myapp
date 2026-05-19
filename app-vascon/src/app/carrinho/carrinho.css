@@ -113,6 +113,7 @@ img{
   color: #ffffff;
   display: flex;
   align-items: center;
+  justify-content: end;
 
 }
 .b2{
