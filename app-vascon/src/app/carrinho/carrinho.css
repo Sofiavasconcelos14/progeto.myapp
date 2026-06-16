@@ -1,6 +1,33 @@
+   
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #424242;
+}
+
+button {
+  padding: 1px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9a4dff;
+}
+
+.vazio {
+  font-size: 26px;
+  color: #999;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
 .container {
-  width: 100% !important;
-  height: 100vh;
+  width: 100%;
+ 
   display: flex;
   flex-direction: column;
   background: rgb(255, 255, 255);
@@ -8,8 +35,8 @@
   padding: 20px;
 }
 .afi1 {
-  width: 1800px;
-  height: 100vh;
+  width: 2000px;
+  height: 100%;
   background-color: antiquewhite;
   padding: 50px;
   border-radius: 8px;
@@ -18,15 +45,60 @@
   justify-content: space-around;
 }
 .afi2{
-  width: 1000px;
-  height: 300px;
+  width: 1300px;
+  display: flex;
+  flex-direction: column ;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
- 
+  gap: 20px;
 }
+
+.items-list {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  
+  
+  
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.item-details .descricao {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 10px;
+  
+}
+
+.item-details .valor {
+  font-size: 18px;
+  font-weight: 600;
+  color: #731cff;
+}
+
+.item-details .quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.item-details .quantity-controls .quantity {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
 
 img{
   width: 200px;

@@ -9,5 +9,6 @@ export const routes: Routes = [
   { path: 'sobre', component: About },
   { path: 'loja', component: Loja },
   { path: 'carrinho', component: carrinho },
+  { path: 'produtos', component: Loja }
 ];
   

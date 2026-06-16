@@ -3,6 +3,7 @@
     margin: 0 !important;
     padding: 0 !important;
     box-sizing: border-box !important;
+     background: linear-gradient(to bottom, rgb(144, 198, 243), rgb(229, 140, 247));
 }
 
 
