@@ -1,9 +1,15 @@
-   
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    180deg,#0d47a1, #6a1b9a, #ec4899);
+  min-height: 100vh;
+}
 
 h2 {
   font-size: 24px;
   margin-bottom: 20px;
-  color: #424242;
+  color: #ffffff;
 }
 
 button {
@@ -15,40 +21,40 @@ button {
 }
 
 button:hover {
-  background-color: #9a4dff;
+  opacity: 0.9;
 }
 
 .vazio {
   font-size: 26px;
-  color: #999;
+  color: #ffffff;
   margin-top: 20px;
   font-weight: 600;
 }
 
 .container {
   width: 100%;
- 
   display: flex;
   flex-direction: column;
-  background: rgb(255, 255, 255);
   align-items: center;
   padding: 20px;
 }
+
 .afi1 {
   width: 2000px;
   height: 100%;
-  background-color: antiquewhite;
+  background: linear-gradient(180deg,#1565c0, #7b1fa2,#f06292);
   padding: 50px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-around;
 }
+
 .afi2{
   width: 1300px;
   display: flex;
-  flex-direction: column ;
-  background-color: #ffffff;
+  flex-direction: column;
+  background: linear-gradient(180deg,#1976d2, #8e24aa, #ec4899);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -59,10 +65,7 @@ button:hover {
   display: flex;
   gap: 10px;
   align-items: center;
-  border-bottom: 1px solid #eee;
-  
-  
-  
+  border-bottom: 1px solid rgba(255,255,255,0.3);
 }
 
 .item-details {
@@ -75,15 +78,14 @@ button:hover {
 .item-details .descricao {
   font-size: 16px;
   font-weight: 400;
-  color: #666;
+  color: #ffffff;
   margin-bottom: 10px;
-  
 }
 
 .item-details .valor {
   font-size: 18px;
   font-weight: 600;
-  color: #731cff;
+  color: #ffd6ff;
 }
 
 .item-details .quantity-controls {
@@ -96,53 +98,59 @@ button:hover {
 .item-details .quantity-controls .quantity {
   font-size: 16px;
   font-weight: 500;
+  color: white;
 }
-
-
 
 img{
   width: 200px;
   height: 200px;
   display: flex;
   border-radius: 25px;
-  
 }
+
 .ima{
   display: flex;
   padding: 30px;
 }
+
 .new{
   display: flex;
   flex-direction: column;
   padding: 20px;
   justify-content: center;
-  
+  color: white;
 }
+
 .new2{
   flex-direction: column;
   display: flex;
-  padding: 20PX;
+  padding: 20px;
   align-items: center;
   justify-content: center;
- 
-} 
+  color: white;
+}
+
 .new3{
   flex-direction: column;
   display: flex;
-  padding: 20PX;
+  padding: 20px;
   align-items: center;
   justify-content: center;
- 
-} 
+  color: white;
+}
+
 .no{
   width: 150px;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(197, 196, 196);
+
+  background: linear-gradient(45deg,#4f8cff, #b14cff, #ff66c4);
+  color: white;
   border-radius: 20px;
 }
+
 .menos{
   width: 50px;
   height: 20px;
@@ -151,19 +159,26 @@ img{
   justify-content: center;
   border-radius: 10px;
   align-items: center;
-  background: rgb(224, 223, 223);
+
+  background: linear-gradient(45deg,#4f8cff,#b14cff);
+  color: white;
 }
+
 .mais{
   width: 50px;
   height: 20px;
   margin: 5px;
   display: flex;
   justify-content: center;
-   border-radius: 10px;
+  border-radius: 10px;
   align-items: center;
-  background: rgb(224, 223, 223);
+
+  background: linear-gradient( 45deg, #b14cff,  #ff66c4);
+
+  color: white;
 }
 
+/* CARD PRETO MANTIDO SEM ALTERAÇÃO */
 .afi3{
   width: 500px;
   height: 600px;
@@ -174,11 +189,10 @@ img{
   padding: 10px;
   flex-direction: column;
   align-items: center;
-
- 
 }
+
 .a1{
- width: 450px;
+  width: 450px;
   height: 80px;
   background-color: #000000;
   font-size: larger;
@@ -186,8 +200,8 @@ img{
   display: flex;
   align-items: center;
   justify-content: end;
-
 }
+
 .b2{
   width: 450px;
   height: 150px;
@@ -196,8 +210,8 @@ img{
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
+
 .v{
   width: 400px;
   height: 100px;
@@ -205,8 +219,8 @@ img{
   justify-content: space-between;
   align-items: center;
   color: #ffffff;
-
 }
+
 .v2{
   width: 400px;
   height: 50px;
@@ -215,6 +229,7 @@ img{
   align-items: center;
   color: #ffffff;
 }
+
 .c3{
   width: 450px;
   height: 150px;
@@ -224,6 +239,7 @@ img{
   align-items: center;
   justify-content: center;
 }
+
 .vi{
   width: 400px;
   height: 100px;
@@ -232,27 +248,30 @@ img{
   align-items: center;
   color: #fafafa;
 }
+
 .d4{
   width: 450px;
   height: 150px;
   background-color: #000000;
   margin-top: 20px;
 }
+
 .finalizar{
   width: 450px;
   height: 50px;
-  background-color: #0066ff;
+  background: linear-gradient( 45deg, #4f8cff,#b14cff,#ff66c4);
   color: #ffffff;
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .continuar{
   width: 450px;
   height: 50px;
-  background-color: #ffffff;
-  color: #000000;
+  background: linear-gradient( 45deg, #4f8cff,#b14cff, #ff66c4);
+  color: #ffffff;
   border-radius: 20px;
   display: flex;
   align-items: center;
